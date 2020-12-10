@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+/* ---------------------------
+$  1. CONFIGURATION & HELPERS
+-----------------------------*/
+// @import "abstracts/functions", "abstracts/mixins", "abstracts/queries",
+//     "abstracts/variables";
+
+/* ---------------------------
+$  2. VENDORS
+-----------------------------*/
+@import "vendors/reset", "vendors/normalize";
+
+/* ---------------------------
+$  3. BASE STUFF
+-----------------------------*/
+@import "base/base";
+
+/* ---------------------------
+$  4. LAYOUT
+-----------------------------*/
+// @import "layout/footer", "layout/grid", "layout/nav";
+
+/* ---------------------------
+$  5. COMPONENTS
+-----------------------------*/
+@import "components/navbar";
+
+/* ---------------------------
+$  6. PAGES
+-----------------------------*/
+@import "pages/index";
